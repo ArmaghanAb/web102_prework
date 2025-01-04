@@ -19,9 +19,22 @@ body {
     margin-top: -10px;
 }
 
+
 .stats-container {
-    display: flex;
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-around; /* Distribute items evenly */
+    background-color: #a6b6cf; 
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
 }
+
+.stats-container:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    box-shadow: 0 0 30px lightblue; /* Add lightblue box-shadow on hover */
+}
+
 
 .stats-card {
     background-color: #a8b0bc;
